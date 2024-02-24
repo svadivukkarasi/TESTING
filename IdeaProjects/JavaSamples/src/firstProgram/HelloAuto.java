@@ -9,10 +9,8 @@ public class HelloAuto{
        // System.out.println("Hello World!!!");
     }
 int a=100;
-   int a=a++;
-    System.out.println(int "a");
-HelloAuto helloAuto=new HelloAuto();
-
+    int b=300;
+    int sum=a+b;
 
 
     }
