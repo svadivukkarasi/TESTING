@@ -1,6 +1,7 @@
 package sauceDemotest;
 
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Assert;
@@ -16,7 +17,7 @@ public class BasketTest {
     @Before
     public void beforeTest(){
        // WebDriverManager.chromedriver().setup();
-       WebDriver  driver = new ChromeDriver();
+       driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com");
         Assert.assertTrue(driver.findElement(By.className("login_logo")).isDisplayed());
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
@@ -26,43 +27,44 @@ public class BasketTest {
         String actualProductPageHeading = driver.findElement(By.className("title")).getText();
         Assert.assertEquals(expectedProductPageHeading, actualProductPageHeading);
     }
+
     @Test
     public void addProductsToBag()
     {
-    driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']").click;
+    driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']")).click();
     Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']")).isDisplayed());
-    driver .findElement(By.xpath("//button[text()='addtocart']")).click();
+    driver.findElement(By.xpath("//button[text()='Add to cart']")).click();
+   // driver.findElement(By.id("add-to-cart-sauce-labs-bike-light")).click();
+    Assert.assertTrue(driver.findElement(By.className("shopping_cart_badge")).getText().equals("1"));
+     driver.findElement(By.className("shopping_cart_badge")).click();
 
-     Assert.assertTrue(driver.findElement(By.className("fa-layers-counter shopping_cart_badge")).getText().equals("1"));
-     String expectedBagPageHeading = "your cart";
-     String actualBagPageHeading = driver.findElement(By.className("title")).getText();
+     String expectedBagPageHeading = "Your Cart";
+     String actualBagPageHeading = driver.findElement(By.xpath("//span[@class='title']")).getText();
      Assert.assertEquals(expectedBagPageHeading,actualBagPageHeading);
+        System.out.println("You are in " +actualBagPageHeading+ "page");
      Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']")).isDisplayed());
 
-
-
-
     }
+
     @Test
-    public void  removeProductFromBag()
+    public void removeProductFromBag()
         {
         driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']"));
         Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']")).isDisplayed());
-                        driver .findElement(By.xpath("//button[text()='addtocart']")).click();
-
-        Assert.assertTrue(driver.findElement(By.className("fa-layers-counter shopping_cart_badge")).getText().equals("1"));
-        String expectedbagpageHeading = "your cart";
+        driver.findElement(By.xpath("//button[text()='Add to cart']")).click();
+        Assert.assertTrue(driver.findElement(By.className("shopping_cart_badge")).getText().equals("1"));
+        driver.findElement(By.className("shopping_cart_badge")).click();
+        String expectedbagpageHeading = "Your Cart";
         String actualbagpageHeading = driver.findElement(By.className("title")).getText();
         Assert.assertEquals(expectedbagpageHeading,actualbagpageHeading);
-        Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']")).isDisplayed());
-        driver.findElement(By.xpath("//button[text()='REMOVE']")).click();
+       // Assert.assertTrue(driver.findElement(By.xpath("//div[text()='Sauce Labs Bike Light']")).isDisplayed());
+        driver.findElement(By.xpath("//button[text()='Remove']")).click();
 
 
     }
-
     @After
     public void afterTest() {
-      //  driver.quit();
+    // driver.quit();
 
     }
     }
