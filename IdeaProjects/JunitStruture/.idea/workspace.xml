@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="054916f1-013e-42fc-8425-578deca1830b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2bzHoD54cJriek1tYpiQDXA4has" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BasketTests.addProductsToBag.executor": "Run",
+    "JUnit.BasketTests.executor": "Run",
+    "JUnit.BasketTests.removeProductsFromBag.executor": "Run",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.LoginTest.verifyValidLogin.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/sunda/IdeaProjects/JunitStruture/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.BasketTests.removeProductsFromBag">
+    <configuration name="BasketTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStruture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sauceDemoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sauceDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="sauceDemoTest.BasketTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTests.addProductsToBag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStruture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sauceDemoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sauceDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="sauceDemoTest.BasketTests" />
+      <option name="METHOD_NAME" value="addProductsToBag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTests.removeProductsFromBag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStruture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sauceDemoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sauceDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="sauceDemoTest.BasketTests" />
+      <option name="METHOD_NAME" value="removeProductsFromBag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStruture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sauceDemoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sauceDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="sauceDemoTest.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyValidLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStruture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sauceDemoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sauceDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="sauceDemoTest.LoginTest" />
+      <option name="METHOD_NAME" value="verifyValidLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BasketTests.removeProductsFromBag" />
+        <item itemvalue="JUnit.BasketTests.addProductsToBag" />
+        <item itemvalue="JUnit.BasketTests" />
+        <item itemvalue="JUnit.LoginTest.verifyValidLogin" />
+        <item itemvalue="JUnit.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-e1d2075fd9a7-f66d43ae" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="054916f1-013e-42fc-8425-578deca1830b" name="Changes" comment="" />
+      <created>1707211160539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707211160539</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
